@@ -5,6 +5,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
+window.React = React;
+window.ReactDOM = ReactDOM;
+window.ropTypes = PropTypes;
 
 const Hello = props => (
   <div>Hello {props.name}!</div>
